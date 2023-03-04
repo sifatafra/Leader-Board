@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
 }
 
 nav {
@@ -41,4 +42,122 @@ nav li {
 .list {
     display: flex;
     gap: 10px;
+}
+
+/* main part starts from here */
+.container {
+    margin: 30px 350px;
+}
+
+.player-t {
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+.player-tt {
+    margin-bottom: 25px;
+    padding: 15px;
+    margin-left: 5px;
+}
+
+.players {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.all-players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.all-players img {
+    height: 60px;
+    width: 40px;
+}
+
+.player-tl {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.top-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+.top-blog img {
+    width: 120px;
+    height: 117px;
+
+}
+
+.blogs {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.gray {
+    color: #9F9F9F;
+}
+
+.courses {
+    background-color: white;
+    margin-bottom: 30px;
+    border: 1px solid white;
+
+}
+
+.courses-blog {
+    display: flex;
+    gap: 20px;
+    margin: 10px 10px;
+    box-shadow: 40px;
+}
+
+.courses-blog img {
+    width: 230px;
+    height: 141px;
+
+}
+
+.rating {
+    display: flex;
+    gap: 15px;
+
+}
+
+.gold {
+    color: gold;
+}
+
+.pink {
+    background-color: #FF4A60;
+    padding: 5px;
+    border-radius: 5px;
+    color: #E5E5E5;
+}
+
+.rates {
+    color: #A2A2A2;
+}
+
+.author {
+    color: #ED6B4F;
+}
+
+footer {
+    background-color: black;
+
+    text-align: center;
+    padding: 30px;
+    color: #E5E5E5;
+    height: 100px;
+    width: 100%;
 }
